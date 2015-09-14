@@ -1,5 +1,4 @@
-# WHAT’S THE DIFFERENCE BETWEEN APACHE MESOS AND GOOGLE’S KUBERNETES?
-Apache Mesos与Google Kubernets的不同之处在哪里？
+# Apache Mesos与Google Kubernets的不同之处在哪里？
 翻译者：肖德时
 作者：Craig McLuckie 
 Source: https://kismatic.com/community/apaches-mesos-vs-googles-kubernetes/
