@@ -1,6 +1,8 @@
 # Apache Mesos与Google Kubernets的不同之处在哪里？
 作者：Craig McLuckie 
+
 翻译者：肖德时
+
 Source: https://kismatic.com/community/apaches-mesos-vs-googles-kubernetes/
 
 
