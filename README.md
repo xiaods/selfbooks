@@ -1,9 +1,7 @@
 # Apache Mesos与Google Kubernets的不同之处在哪里？
-作者：Craig McLuckie 
-
-翻译者：肖德时
-
-Source: https://kismatic.com/community/apaches-mesos-vs-googles-kubernetes/
+* 作者：Craig McLuckie 
+* 翻译者：肖德时
+* Source: https://kismatic.com/community/apaches-mesos-vs-googles-kubernetes/
 
 
 假如你刚入门集群计算，那么Kubernetes将会是很好的出发点；它快捷，易用，轻量的方式来处理集群导向开发的集成和体验。它提供了非常高瞻远瞩式的可移植性，让它得以支持多家提供商（微软，IBM，红帽，CoreOS，Mesosphere, Kismatic, VMware等等)
