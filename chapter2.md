@@ -35,6 +35,13 @@ YARN is optimized for scheduling Hadoop jobs, which are historically (and still 
 
 ## Is it YARN vs Mesos?
 
+When comparing YARN and Mesos, it is important to understand the general scaling capabilities and why someone might choose one technology over the other. While some might argue that YARN and Mesos are competing for the same space, they really are not. The people who put these models in place had different intentions from the start, and that’s OK. There is nothing explicitly wrong with either model, but each approach will yield different long-term results. I believe this is the key between when to use one, the other, or both. Mesos was built at the same time as Google’s Omega. Ben Hindman and the Berkeley AMPlab team worked closely with the team at Google designing Omega so that they both could learn from the lessons of Google’s Borg and build a better non-monolithic scheduler.
+
+When you evaluate how to manage your data center as a whole, you’ve got Mesos on one side that can manage all the resources in your data center, and on the other, you have YARN, which can safely manage Hadoop jobs, but is not capable of managing your entire data center. Data center operators tend to solve for these two use cases by partitioning their clusters into Hadoop and non-Hadoop worlds.
+
+Using Mesos and YARN in the same data center, to benefit from both resource managers, currently requires that you create two static partitions. Using both would mean that certain resources would be dedicated to Hadoop for YARN to manage and Mesos would get the rest. It might be over simplifying it, but that is effectively what we are talking about here. Fundamentally, this is the issue we want to avoid.
+
+
 
 
 
