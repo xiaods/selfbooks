@@ -64,7 +64,7 @@ Mesos needs an end-to-end security architecture, and I personally would not draw
 
 [Myriad](https://github.com/mesos/myriad) is an enabling technology that can be used to take advantage of leveraging all of the resources in a data center or cloud as a single pool of resources. Myriad enables businesses to tear down the walls between isolated clusters, just as Hadoop enabled businesses to tear down the walls between data silos. With Myriad, developers will be able to focus on the data and applications on which the business depends, while operations will be able to manage compute resources for maximum agility. This opens the door to being able to focus on data instead of constantly worrying about infrastructure. With Myriad, the constraints on the storage network and coordination between compute and data access are the last-mile concern to achieve full flexibility, agility, and scale.
 
-Project Myriad is hosted on GitHub and is available for download. There’s documentation there that provides more in-depth explanations of how it works. You’ll even see some nice diagrams. Go out, explore, and give it a try.
+[Project Myriad is hosted on GitHub](https://github.com/mesos/myriad) and is available for download. There’s documentation there that provides more in-depth explanations of how it works. You’ll even see some nice diagrams. Go out, explore, and give it a try.
 
 
 
