@@ -66,9 +66,6 @@ Myriad is an enabling technology that can be used to take advantage of leveragin
 
 Project Myriad is hosted on GitHub and is available for download. There’s documentation there that provides more in-depth explanations of how it works. You’ll even see some nice diagrams. Go out, explore, and give it a try.
 
-Jim Scott’s colleague, Ted Dunning, will cover these topics and more at Strata + Hadoop World in San Jose — find out more and reserve your spot.
-
-
 
 
 
