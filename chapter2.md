@@ -43,6 +43,12 @@ Using Mesos and YARN in the same data center, to benefit from both resource mana
 
 
 
+## Introducing project Myriad
+
+
+
+
+
 
 
 
