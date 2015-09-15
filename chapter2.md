@@ -43,7 +43,11 @@ Using Mesos and YARN in the same data center, to benefit from both resource mana
 
 
 ## Introducing project Myriad
+This leads us to the question: can we make YARN and Mesos work together? Can we make them work harmoniously for the benefit of the enterprise and the data center? The answer is yes. A few well-known companies — eBay, MapR, and Mesosphere — collaborated on [a project called Myriad](https://github.com/mesos/myriad).
 
+This open source software project is both a Mesos framework and a YARN scheduler that enables Mesos to manage YARN resource requests. When a job comes into YARN, it will schedule it via the Myriad Scheduler, which will match the request to incoming Mesos resource offers. Mesos, in turn, will pass it on to the Mesos worker nodes. The Mesos nodes will then communicate the request to a Myriad executor which is running the YARN node manager. Myriad launches YARN node managers on Mesos resources, which then communicate to the YARN resource manager what resources are available to them. YARN can then consume the resources as it sees fit. Myriad provides a seamless bridge from the pool of resources available in Mesos to the YARN tasks that want those resources.
+
+![How Myriad works. Source: Mesosphere and MapR, used with permission.](http://s.radar.oreilly.com/wp-files/2/2015/02/how-it-works.png)
 
 
 
