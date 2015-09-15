@@ -42,7 +42,6 @@ When you evaluate how to manage your data center as a whole, you’ve got Mesos 
 Using Mesos and YARN in the same data center, to benefit from both resource managers, currently requires that you create two static partitions. Using both would mean that certain resources would be dedicated to Hadoop for YARN to manage and Mesos would get the rest. It might be over simplifying it, but that is effectively what we are talking about here. Fundamentally, this is the issue we want to avoid.
 
 
-
 ## Introducing project Myriad
 
 
