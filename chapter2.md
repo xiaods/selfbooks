@@ -58,7 +58,9 @@ Myriad blends the best of both the YARN and Mesos worlds. By utilizing Myriad, M
 
 ## Final thoughts
 
+To make sure people understand where I am coming from here, I feel that both Mesos and YARN are very good at what they were built to achieve, yet both have room for improvement. Both resource managers can improve in the area of security; security support is paramount to enterprise adoption.
 
+Mesos needs an end-to-end security architecture, and I personally would not draw the line at Kerberos for security support, as my personal experience with it is not what I would call “fun.” The other area for improvement in Mesos — which can be extremely complicated to get right — is what I will characterize as resource revocation and preemption. Imagine the use case where all resources in a business are allocated and then the need arises to have the single most important “thing” that your business depends on run — even if this task only requires minutes of time to complete, you are out of luck if the resources are not available. Resource preemption and/or revocation could solve that problem. There are currently ways around this in Mesos today, but I look forward to the work the Mesos committers are doing to solve this problem with Dynamic Reservations and Optimistic (Revocable) Resources Offers.
 
 
 
