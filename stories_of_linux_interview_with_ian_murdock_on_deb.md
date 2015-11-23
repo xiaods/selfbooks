@@ -29,6 +29,16 @@ As a result, Murdock says that "I thought his argument was reasonable, and I tho
 
 The good news, however, is that the fragmentation that was considered a problem then has since been fixed.
 
+## Of Packaging and Crowdsourcing
+
+Debian is widely known for its package management system, dpkg and the APT utilities. What you may not know is why they exist. When asked how he feels about Debian now, Murdock says that it has had an "enormous impact," and notes that he's most proud of "the realization that we had earlier than anyone else I'm aware of. What was truly interesting about Linux was not the technology, but the development model.
+
+"Debian wasn't the first project to adopt a distributed development model, Linux had stumbled on it on a larger scale, GNU [projects were] usually a handful of people... Debian's goal was to package the process, make it available to larger numbers of people. Early on we made the decision, it was going to be a community driven effort, that was the motivation behind package system in the first place. Not to make things easier to manage, it was a software development mechanism, so we could chunk up the system into pieces and different people in different places could build those pieces. The package system had other wonderful properties, but it was a software development mechanism... we were the first intentional community development project. Linux was, of course, accidental, and we did it at a larger scale than the GNU project had ever done."
+
+Further, Murdock says that if you look at the model for Debian, it has spread far beyond Linux. "Take that model and process, abstract away from software development, that's what's referred to today as crowdsourcing, same model that Wikipedia uses. Anything else constructed by many many hands. Linux has had an enormous impact on the world.
+
+"There'd be no Google. Everything that has happened on the Web would have, at best, happened far more slowly. The economics of Linux were what made it possible to do those things at such large scale. Obviously that's been an enormous impact Linux has had on the world. More than that, this notion, rewind 18 years (20 years for Linux) think about how ridiculous it would have seemed at the time... the notion that a disconnected, uncoordinated, non-economically motivated group of people could build something as complex as an operating system or an encyclopedia."
+
 
 
 
