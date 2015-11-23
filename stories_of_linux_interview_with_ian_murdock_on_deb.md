@@ -5,7 +5,7 @@
 *  翻译：肖德时
 
   
-![](debian-logo-notext.png)If you want to look at the history of Linux, you can hardly escape talking about Debian. Debian has played a major role as part of the Linux ecosystem, and it'd be hard to imagine what the world would look like without it. But it wasn't always a major player — in fact, Debian wasn't even the first Linux distribution. But Debian founder Ian Murdock did things a bit differently, and that has made all the difference.
+![debian-logo](debian-logo-notext.png)If you want to look at the history of Linux, you can hardly escape talking about Debian. Debian has played a major role as part of the Linux ecosystem, and it'd be hard to imagine what the world would look like without it. But it wasn't always a major player — in fact, Debian wasn't even the first Linux distribution. But Debian founder Ian Murdock did things a bit differently, and that has made all the difference.
 
 Debian's history is surprisingly well-documented. The project was founded in 1993, not long after Slackware Linux, but with a much different model of development. Debian started with the Debian Manifesto. (Folks were fond of manifestos in the early days of free software.)
 
