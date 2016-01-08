@@ -156,8 +156,3 @@ Go Team 强调的是代码的干净度胜过代码的重用。这是不一样的
 * [Manage Dependencies With Godep](http://www.goinggo.net/2013/10/manage-dependencies-with-godep.html)
 * [Go 1.5 Vendor Experiment](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit)
 * https://nathany.com/go-packages/
-
-
-
-
-
