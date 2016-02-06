@@ -24,3 +24,6 @@ Swarm 1.1
 
 * Reschedule containers when a node fails: 很多朋友都是问我，数人云和 Swarm的区别，之前我还可以说数人云是可以自动调度容器的，现在 Swarm 也有了这个功能。
 * Better node management: 节点管理更轻松了。节点坏了，Swarm 可以显示出来了。
+
+
+
