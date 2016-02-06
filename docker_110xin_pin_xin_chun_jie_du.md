@@ -5,7 +5,7 @@
 当然，这次升级带来的伤害也是我们用户无法承受之痛。让我们抬起头直面问题，共同解决吧。当然数人云责无旁贷地将会在2016年为企业解决企业上容器的痛苦。
 
 Engine 1.10
-
+-----------
 * 由于Content addressable image IDs技术的采用：需要用户在生产环境做自动迁移。如果你的主机上有多个 Image，迁移过程将是漫长的。
 * Better event stream：系统事件对于运维2.0来说，增强了更多的事件指标。
 * Improved push/pull performance and reliability: 号称3倍以上的速度提升，但对于数人云服务过的客户来说，稳定才是最重要的。
@@ -24,6 +24,9 @@ Swarm 1.1
 
 * Reschedule containers when a node fails: 很多朋友都是问我，数人云和 Swarm的区别，之前我还可以说数人云是可以自动调度容器的，现在 Swarm 也有了这个功能。
 * Better node management: 节点管理更轻松了。节点坏了，Swarm 可以显示出来了。
+
+
+Machine 0.6
 
 
 
