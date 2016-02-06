@@ -4,5 +4,6 @@
 
 当然，这次升级带来的伤害也是我们用户无法承受之痛。
 
-* 由于Content addressable image IDs技术的采用，需要用户在生产环境做自动迁移。如果你的主机上有多个 Image，迁移过程将是漫长的。
+* 由于Content addressable image IDs技术的采用：需要用户在生产环境做自动迁移。如果你的主机上有多个 Image，迁移过程将是漫长的。
+* Better event stream
 
