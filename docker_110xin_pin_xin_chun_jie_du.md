@@ -6,4 +6,5 @@
 
 * 由于Content addressable image IDs技术的采用：需要用户在生产环境做自动迁移。如果你的主机上有多个 Image，迁移过程将是漫长的。
 * Better event stream：系统事件对于运维2.0来说，增强了更多的事件指标。
+* Improved push/pull performance and reliability: 号称3倍以上的速度提升，但对于数人云服务过的客户来说，稳定才是最重要的。
 
