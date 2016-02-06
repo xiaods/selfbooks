@@ -20,4 +20,6 @@ docker run -d --read-only --tmpfs /run --tmpfs /tmp IMAGE
 * Start linked containers in correct order when restarting daemon:重启 Daemon 之后，相互依赖的容器可以按照依赖关系重启。
 * 
 
+Swarm 1.1
 
+* Reschedule containers when a node fails: 很多朋友都是问我，数人云和 Swarm的区别，之前我还可以说数人云是可以自动调度容器的，现在 Swarm 也有了这个功能。
