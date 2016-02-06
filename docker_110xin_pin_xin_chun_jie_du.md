@@ -7,5 +7,5 @@
 * 由于Content addressable image IDs技术的采用：需要用户在生产环境做自动迁移。如果你的主机上有多个 Image，迁移过程将是漫长的。
 * Better event stream：系统事件对于运维2.0来说，增强了更多的事件指标。
 * Improved push/pull performance and reliability: 号称3倍以上的速度提升，但对于数人云服务过的客户来说，稳定才是最重要的。
-* Live update container resource constraints: 终于有了热升级资源配置的命令。
+* Live update container resource constraints: 终于有了热升级资源配置的命令。举个例子，当你启动一个32M 大小的容器实例来抢微信红包，由于聊天群火爆，容器实例处理需要更大的nei'chong
 
