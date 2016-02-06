@@ -13,5 +13,5 @@
 ```
 docker run -d --read-only --tmpfs /run --tmpfs /tmp IMAGE
 ```
-* Constraints on disk I/O: 磁盘 IO 终于可以做限制了。
+* Constraints on disk I/O: 磁盘 IO 终于可以做限制了。企业特性。
 
