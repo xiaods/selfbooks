@@ -9,4 +9,5 @@
 * Improved push/pull performance and reliability: 号称3倍以上的速度提升，但对于数人云服务过的客户来说，稳定才是最重要的。
 * Live update container resource constraints: 终于有了热升级资源配置的命令。举个例子，当你启动一个32M 大小的容器实例来抢微信红包，由于聊天群火爆，容器实例处理需要更大的内存容量。这个时候，如果能动态更新容器的内存限制就好了。所以，今年过年你可以放心的用容器抢红包了。:-)
 * Daemon configuration file: Docker 之前最大的吐槽点就是有 root daemon。这个 Daemon 管理这所有的容器。你想给它加个动态标签，配置个 log 服务器还要重启。这在企业里，重启这个技术活就是一个危险的操作，别说这种容器，是一种高频率的更新配置的需求，总不能让业务天天重启吧。
+* Temporary filesystems:临时目录不是真的“临时”，是企业应用过程中，对容器要求只读的时候，可以把可写的内容挂载到特定的地方。
 
