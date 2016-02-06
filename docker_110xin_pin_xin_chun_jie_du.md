@@ -15,5 +15,5 @@ docker run -d --read-only --tmpfs /run --tmpfs /tmp IMAGE
 ```
 * Constraints on disk I/O: 磁盘 IO 终于可以做限制了。企业特性。
 * Splunk logging driver: 全球“最”流行的日志采集分析工具也默认有Docker 去驱动了。
-* Start linked containers in correct order when restarting daemon:重启 Daemon 之后，相互依赖的容器可以按照依赖关系启动
+* Start linked containers in correct order when restarting daemon:重启 Daemon 之后，相互依赖的容器可以按照依赖关系重启。
 
