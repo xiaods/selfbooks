@@ -29,5 +29,6 @@ Swarm 1.1
 Machine 0.6
 -----------
 * No need to type “default”: 去掉一个默认参数。
+* New provision command: 新增重置环境的命令。
 
 
